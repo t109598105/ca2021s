@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="myStyle.min.css">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="ScrollMagic.min.js"></script>
+    <script type="text/javascript" src="MotionSensor.js"></script>
+    <script type="text/javascript" src="three.js"></script>
+    <script type="text/javascript" src="TGALoader.js"></script>
+    <script type="text/javascript" src="mmdparser.js"></script>
+    <script type="text/javascript" src="MMDLoader.js"></script>
+    <script type="text/javascript" src="ammo.js"></script>
+    <script type="text/javascript" src="CCDIKSolver.js"></script>
+    <script type="text/javascript" src="MMDPhysics.js"></script>
+    <script type="text/javascript" src="MMDAnimationHelper.js"></script>
+    <script type="text/javascript" src="d3.v4.min.js"></script>
+    <script type="text/javascript" src="stats.min.js"></script>
+
+    <script>
+        var WIDTH = 1280;
+        var HEIGHT = 720;
+    </script>
+
+    <script src="progressBar.min.js"></script>
+    <script src="recorder.min.js"></script>
+    <script src="lyricsController.min.js"></script>
+    <script src="animation.min.js"></script>
+    
+    
+</head>
+
+<body>
+    <div id="bg">
+        <div style="position: absolute; top: 1%;left:1%">
+            <object type="image/svg+xml" data="title.svg"></object>
+        </div>
+        <div class="producer float-left" style="bottom: 0; position: absolute;">
+            <h2> 材料提供 </h2>
+            MMDモデル( ふじわら ちか ): Tda式初音ミク・アペンド <br>
+            MMDモデル( 生徒会室 ): Dovahkiin233 <br>
+            モーションデータ: 兰若_Ruo <br>
+            しゅだいか: チカっとチカ千花っ♡ (CV. 小原好美) <br>
+            歌詞: 福島真希 <br>
+        </div>
+        <div class="producer float-right">
+            <h2> アニメ：かぐや様は告らせたい </h2>
+            原作:	赤坂アカ <br>
+            監督:	畠山守 <br>
+            シリーズ構成:	中西やすひろ <br>
+            脚本:	中西やすひろ、菅原雪絵 <br>
+            キャラクターデザイン:	八尋裕子 <br>
+            音楽:	羽岡佳 <br>
+            アニメーション制作:	A-1 Pictures <br>
+            製作:	かぐや様は告らせたい製作委員会 <br>
+            放送局:	毎日放送、TOKYO MXほか <br>
+            発表期間:	第1期：2019年1月 - 3月 <br>
+            第2期:：2020年4月 - 6月 <br>
+            話数:	第1期：全12話 <br>
+            第2期：全12話 <br>
+        </div>
+        
+
+    </div>
+
+    <div id="mycanvas-container">
+        <div id="mycanvas">
+            <div id="stats" style="position:absolute;">
+            </div>
+        </div>
+        <div id="lyrics-container">
+        </div>
+    </div>
+
+    <div id="progress-container">
+        正在載入<span id="whichMaterial"></span>檔案...進度為<span id="progress"></span>
+    </div>
+</body>
+
+</html>
