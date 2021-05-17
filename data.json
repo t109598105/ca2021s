@@ -1,0 +1,57 @@
+[
+    {
+        "title": "lab 1: VRoid + Mixamo",
+        "description": "這是我第一次接觸 Unity 這個遊戲引擎，有很多非常不熟悉的地方，在實作的過程中也遇到過很多困難，再新增場景、使用插件的過程中也遇到了不少我不懂的東西，格式不同的東西要互相轉換也是要學習的點，也期盼自己在日後的學習中能夠更上一層樓",
+        "videos": {
+            "items": [
+                { 
+                    "videoURL": "https://www.youtube.com/embed/BVBNbG__-5w",
+                    "videoType": "youtube"
+                }
+            ]
+        }
+    },
+    {
+        "title": "lab 2: MMD + Mixamo",
+        "description": "我以前就有聽說過MMD這個軟體，今天上課終於有機會接觸到怎麼使用，也讓我實際學習了一下這個軟體要怎麼操作，其實我之前一直都有興趣，只不過因為時間不夠的關係沒有多餘的機會進行學習，今天有幸有機會可以在課堂上操作到這個軟體，也是原我之前的一個心願了，希望我以後有能力再做更好個東西出來 。",
+        "videos": {
+            "items": [
+                { 
+                    "videoURL": "https://www.youtube.com/embed/ihckmXwnN00",
+                    "videoType": "youtube"
+                }
+            ]
+        }
+    },
+    {
+        "title": "lab 3: Three.js KizunaAI",
+        "description": "今天這個作業的內容是將three.js應用於MMD的網頁呈現，因為這次的學內容是我負責的，所以我對於這次的實作部分其實也有些熟悉，但是再demo時候發生一些問題，導致模型有小部分的瑕疵，在之後引入three.js的光源後，模型的呈現有了小幅度的改善，不過後來發現主要的部份是因為 MMDLader再讀取MMD的時候會預設將每一個材質都做發光處理，導致有部分的材質會因為發光而看不到，把發光的部份解決後，基本上就OK了，再將某些材質上色，可以看得更清楚一點。 然後這次應該是算我做的最久的一個 project 了，加了一些東西，也做了一些研究，希望這次的經驗可以在日後派上用場吧",
+        "videos": {
+            "items": [
+                { 
+                    "videoURL": "https://www.youtube.com/embed/nKh7_W8XRAg",
+                    "videoType": "youtube"
+                    
+                },
+                {
+                    "videoURL": "./Assets/lab03/lab03-final-1-with-drum.mp4",
+                    "videoType": "local"
+                }
+            ],
+            "description": "左邊是原本做的版本，傳到 Youtube 上沒有被封鎖，右邊不管怎麼傳都會被封鎖，即使我調過 Midi 音樂還是一樣，最後就直接把原檔放 Github 了，反正才 18mb 左右。"
+        },
+        "demosite": "./kizunaai_lab03/myCanvas.html"
+    },
+    {
+        "title": "lab 4: Unity MMD vs Three.js MMD",
+        "description": "這個作業的內容是老師想要比較 Unity 與網頁版的 Three.js 在製作 MMD 時的引擎表現程度的差異，我們知道， MMD 背後的引擎是開源的引擎 Bullet ，在 Three.js 中這個引擎又稱為 Ammo.js，是使用 asm.js 去製作的，而 Unity 的部份則是使用原本的引擎，其實我感覺是沒差多少，只不過自己 Unity 的部分真的很不熟，光是調模型要出現在哪個位置就耗掉我一大堆時間，我也不知道為什麼撥了 vmd 動畫之後模型會亂跑，真的不懂，之後就一直調，調到相機對準為止，真的非常繁瑣的工作。希望我之後更熟一點可以更上手一些。(在這次作業的部分改寫了作品集的網頁)",
+        "videos": {
+            "items": [
+                {
+                    "videoURL": "https://www.youtube.com/embed/9hlgC4GZx88",
+                    "videoType": "youtube"
+                }
+            ]
+        }
+    }
+]
