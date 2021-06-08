@@ -54,4 +54,17 @@
             ]
         }
     }
+	,
+    {
+        "title": "lab 5: Unity Tanjiro SubMirror",
+        "description": "這次的作業內容對我來說真的太難，Trail 的部份一值拉，做了兩個多小時，影片都看過了還是出現不少問題，這部分的功能對我來說真的很難...一值做都沒有拉出好結果，只能用最簡便的直線視作效果，目前還有修改的空間，如果在之後學到更好表現刀光的技巧我還會再繼續改進。",
+		"videos": {
+            "items": [
+                {
+                    "videoURL": "https://www.youtube.com/embed/bVOb4Aa3AQI",
+                    "videoType": "youtube"
+                }
+            ]
+        }
+    }
 ]
