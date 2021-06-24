@@ -66,5 +66,17 @@
                 }
             ]
         }
-    }
+    },
+	{
+		"title": "Final project",
+		"description": "這次的作業仰賴利鴻大哥的幫助，我這邊時在對ubity超不熟悉，原本是想用 openMMD 進行動補裝置的，可是環境就是設定不太起來，原本是有在網頁上用過 openpose，不過性能也不太好，所以這次的專案就沒有用上，看來我之後還是要加強 unity 這個軟體的，也許可能以後會用上，這學期的課程也非常感謝各位的鼎力相助",
+		"videos": {
+            "items": [
+                {
+                    "videoURL": "https://cyanexplorer.github.io/ca2021s/final/movie_011.mp4",
+                    "videoType": "local"
+                }
+            ]
+        }
+	}
 ]
